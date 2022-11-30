@@ -1,0 +1,2 @@
+#!/bin/bash
+cp -v documents/project/folder_source/*.html documents/folder_destination/
