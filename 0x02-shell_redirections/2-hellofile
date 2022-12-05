@@ -1,2 +1,2 @@
 #!/bin/bash
-less /ectc/passwd
+less /etc/passwd
