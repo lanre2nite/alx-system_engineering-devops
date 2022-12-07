@@ -1,2 +1,2 @@
 #!/bin/bash
-TRUE_KNOWLEDGE+=128 |echo $TRUE_KNOWLEDGE
+echo -e $((128 + TRUEKNOWLEDGE))
