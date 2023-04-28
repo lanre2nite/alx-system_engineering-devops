@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This scrip print "Best Scool" 10x
+
+for _ in {1..10}
+do
+	echo "Best School"
+done
