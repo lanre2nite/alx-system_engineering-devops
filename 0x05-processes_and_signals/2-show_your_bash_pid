@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#display the lines containing the bash word,
+#shellcheck diasble=SC2009
+
+ps -a ux | grep bash
