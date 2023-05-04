@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# To display all active IPv4s on the machine it's exe on
+
+hostname -i --ip-address

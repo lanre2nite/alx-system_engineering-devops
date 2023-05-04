@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# How to resolve a localhost to another IP
+
+sudo hostnamectl set-hostname "127.0.0.2"
