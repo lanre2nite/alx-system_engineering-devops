@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #MAC AND IP ADDRESS
 
-"2"
-"3"
+echo "2"
+echo "3"

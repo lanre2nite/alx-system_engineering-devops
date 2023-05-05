@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Network type, LAN, WAN and the Internet
 
-"3"
-"2"
-"1"
+echo "3"
+echo "2"
+echo "1"
