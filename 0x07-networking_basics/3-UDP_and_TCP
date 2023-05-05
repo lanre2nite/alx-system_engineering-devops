@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-# Difference between UDP and TCP
-
-echo "1"
-echo "2"
-echo "1"
+1
+2
+1
