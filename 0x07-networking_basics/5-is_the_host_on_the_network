@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Ping an address for a number of times(5*)
-if ["$8"]
+if [ "$8" ]
 then
 ping -c 5 "$8"
 else
