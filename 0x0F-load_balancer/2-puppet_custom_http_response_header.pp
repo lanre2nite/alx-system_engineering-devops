@@ -1,4 +1,4 @@
-# creates a custom HTTP header response
+# Automation: creates a custom HTTP header response with Puppet.
 exec { 'command':
   command  => 'apt-get -y update;
   apt-get -y install nginx;
