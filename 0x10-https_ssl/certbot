@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Installs and cretes an SSL Certificate using certbot
+# This script assumes you have HAProxy installed
+# Reference: https://serversforhackers.com/c/letsencrypt-with-haproxy
+
+# Check if running as root user
+if [[ $EUID -ne 0 ]]; then
+	echo 'Please run this script as root or sudo'
+	exit 1
+fi
+
+# Check if Certbot is not installed
+if ! command -v certbot &> /dev/null; then
+    # Install Certbot
+    echo "Installing Certbot..."
